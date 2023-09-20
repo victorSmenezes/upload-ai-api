@@ -13,3 +13,13 @@ Content-Type: audio/mpeg
 
 < ./example.mp3
 ------WebKitFormBoundary7MA4YWxkTrZu0gW--
+
+###
+
+# @name create-transcription
+POST http://localhost:3333/videos/9743efec-96c0-44c1-ae11-a9872798e9a0/transcription
+Content-Type: application/json
+
+{
+  "prompt": "regras, te esquecer"
+}
