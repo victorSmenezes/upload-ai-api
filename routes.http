@@ -17,9 +17,11 @@ Content-Type: audio/mpeg
 ###
 
 # @name create-transcription
-POST http://localhost:3333/videos/9743efec-96c0-44c1-ae11-a9872798e9a0/transcription
+POST http://localhost:3333/videos/df372627-7224-4652-8183-36dbaf09917f/transcription
 Content-Type: application/json
 
 {
-  "prompt": "regras, te esquecer"
+  "prompt": "regras, te esquecer, não te atender"
 }
+
+###
